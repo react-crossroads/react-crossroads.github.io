@@ -1,4 +1,4 @@
 React = require 'react'
-AppNavBar = require './navbar'
+ApplicationRoutes = require './routes'
 
-React.renderComponent <AppNavBar />, document.body
+React.renderComponent <ApplicationRoutes />, document.body

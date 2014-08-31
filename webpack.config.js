@@ -12,7 +12,8 @@ module.exports = {
       { test: /\.coffee$/, loader: "coffee" },
       { test: /\.cjsx$/, loader: "coffee!cjsx" },
       { test: /\.less$/, loader: "style!css!less" },
-      { test: /\.css$/, loader: "style!css" }
+      { test: /\.css$/, loader: "style!css" },
+      { test:/\.json$/, loader: "json" }
     ]
   },
   resolve: {
