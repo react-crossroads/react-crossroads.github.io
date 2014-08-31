@@ -1,0 +1,32 @@
+{
+  "name": "react-crossroads-docs",
+  "version": "0.0.0",
+  "description": "Documenation for react-crossroads",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mtscout6/react-crossroads.git"
+  },
+  "author": "Matt Smith <mtscout6@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mtscout6/react-crossroads/issues"
+  },
+  "homepage": "https://github.com/mtscout6/react-crossroads",
+  "devDependencies": {
+    "bootstrap": "^3.2.0",
+    "coffee-loader": "^0.7.2",
+    "coffee-script": "^1.8.0",
+    "css-loader": "^0.7.1",
+    "less": "^1.7.4",
+    "less-loader": "^0.7.7",
+    "react": "^0.11.1",
+    "react-bootstrap": "^0.11.1",
+    "style-loader": "^0.7.1",
+    "webpack": "^1.4.0-beta2",
+    "webpack-dev-server": "^1.5.0"
+  }
+}
