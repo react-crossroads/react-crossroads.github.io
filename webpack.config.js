@@ -10,6 +10,7 @@ module.exports = {
   module: {
     loaders: [
       { test: /\.coffee$/, loader: "coffee" },
+      { test: /\.cjsx$/, loader: "coffee!cjsx" },
       { test: /\.less$/, loader: "style!css!less" },
       { test: /\.css$/, loader: "style!css" }
     ]

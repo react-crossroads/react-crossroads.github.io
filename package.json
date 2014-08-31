@@ -18,13 +18,14 @@
   "homepage": "https://github.com/mtscout6/react-crossroads",
   "devDependencies": {
     "bootstrap": "^3.2.0",
+    "cjsx-loader": "^0.2.0",
     "coffee-loader": "^0.7.2",
     "coffee-script": "^1.8.0",
     "css-loader": "^0.7.1",
     "less": "^1.7.4",
     "less-loader": "^0.7.7",
     "react": "^0.11.1",
-    "react-bootstrap": "^0.11.1",
+    "react-bootstrap": "0.11.0",
     "style-loader": "^0.7.1",
     "webpack": "^1.4.0-beta2",
     "webpack-dev-server": "^1.5.0"
