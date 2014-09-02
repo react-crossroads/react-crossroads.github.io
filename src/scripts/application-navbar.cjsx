@@ -14,6 +14,7 @@ ApplicationNavBar = React.createClass
 
     <div>
       <NavBar
+        componentClass={React.DOM.header}
         className='rc-nav'
         brand={brand}
         staticTop>
@@ -21,7 +22,9 @@ ApplicationNavBar = React.createClass
           <NavItem>Test</NavItem>
         </Nav>
       </NavBar>
-      <this.props.activeRouteHandler />
+      <main>
+        <this.props.activeRouteHandler />
+      </main>
       <PageFooter />
     </div>
 
