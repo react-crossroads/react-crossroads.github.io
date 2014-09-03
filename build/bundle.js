@@ -173,11 +173,11 @@
 
 	PageFooter = __webpack_require__(52);
 
-	NavBar = __webpack_require__(103);
+	NavBar = __webpack_require__(74);
 
-	Nav = __webpack_require__(104);
+	Nav = __webpack_require__(75);
 
-	NavItem = __webpack_require__(105);
+	NavItem = __webpack_require__(76);
 
 	ApplicationNavBar = React.createClass({
 	  displayName: 'ApplicationNavBar',
@@ -211,7 +211,7 @@
 
 	React = __webpack_require__(10);
 
-	Jumbotron = __webpack_require__(106);
+	Jumbotron = __webpack_require__(77);
 
 	Home = React.createClass({
 	  displayName: 'Home',
@@ -6323,10 +6323,34 @@
 
 
 /***/ },
-/* 74 */,
-/* 75 */,
-/* 76 */,
-/* 77 */,
+/* 74 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var Navbar = __webpack_require__(180)['default'];
+	module.exports = Navbar
+
+/***/ },
+/* 75 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var Nav = __webpack_require__(181)['default'];
+	module.exports = Nav
+
+/***/ },
+/* 76 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var NavItem = __webpack_require__(182)['default'];
+	module.exports = NavItem
+
+/***/ },
+/* 77 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var Jumbotron = __webpack_require__(183)['default'];
+	module.exports = Jumbotron
+
+/***/ },
 /* 78 */,
 /* 79 */,
 /* 80 */,
@@ -6352,34 +6376,10 @@
 /* 100 */,
 /* 101 */,
 /* 102 */,
-/* 103 */
-/***/ function(module, exports, __webpack_require__) {
-
-	var Navbar = __webpack_require__(180)['default'];
-	module.exports = Navbar
-
-/***/ },
-/* 104 */
-/***/ function(module, exports, __webpack_require__) {
-
-	var Nav = __webpack_require__(181)['default'];
-	module.exports = Nav
-
-/***/ },
-/* 105 */
-/***/ function(module, exports, __webpack_require__) {
-
-	var NavItem = __webpack_require__(182)['default'];
-	module.exports = NavItem
-
-/***/ },
-/* 106 */
-/***/ function(module, exports, __webpack_require__) {
-
-	var Jumbotron = __webpack_require__(183)['default'];
-	module.exports = Jumbotron
-
-/***/ },
+/* 103 */,
+/* 104 */,
+/* 105 */,
+/* 106 */,
 /* 107 */
 /***/ function(module, exports, __webpack_require__) {
 
@@ -11966,7 +11966,7 @@
 
 	"use strict";
 
-	var AutoFocusMixin = __webpack_require__(215);
+	var AutoFocusMixin = __webpack_require__(214);
 	var ReactBrowserComponentMixin = __webpack_require__(143);
 	var ReactCompositeComponent = __webpack_require__(58);
 	var ReactDOM = __webpack_require__(62);
@@ -12042,7 +12042,7 @@
 	"use strict";
 
 	var EventConstants = __webpack_require__(122);
-	var LocalEventTrapMixin = __webpack_require__(214);
+	var LocalEventTrapMixin = __webpack_require__(215);
 	var ReactBrowserComponentMixin = __webpack_require__(143);
 	var ReactCompositeComponent = __webpack_require__(58);
 	var ReactDOM = __webpack_require__(62);
@@ -12102,7 +12102,7 @@
 	"use strict";
 
 	var EventConstants = __webpack_require__(122);
-	var LocalEventTrapMixin = __webpack_require__(214);
+	var LocalEventTrapMixin = __webpack_require__(215);
 	var ReactBrowserComponentMixin = __webpack_require__(143);
 	var ReactCompositeComponent = __webpack_require__(58);
 	var ReactDOM = __webpack_require__(62);
@@ -12159,7 +12159,7 @@
 
 	"use strict";
 
-	var AutoFocusMixin = __webpack_require__(215);
+	var AutoFocusMixin = __webpack_require__(214);
 	var DOMPropertyOperations = __webpack_require__(54);
 	var LinkedValueUtils = __webpack_require__(216);
 	var ReactBrowserComponentMixin = __webpack_require__(143);
@@ -12410,7 +12410,7 @@
 
 	"use strict";
 
-	var AutoFocusMixin = __webpack_require__(215);
+	var AutoFocusMixin = __webpack_require__(214);
 	var LinkedValueUtils = __webpack_require__(216);
 	var ReactBrowserComponentMixin = __webpack_require__(143);
 	var ReactCompositeComponent = __webpack_require__(58);
@@ -12597,7 +12597,7 @@
 
 	"use strict";
 
-	var AutoFocusMixin = __webpack_require__(215);
+	var AutoFocusMixin = __webpack_require__(214);
 	var DOMPropertyOperations = __webpack_require__(54);
 	var LinkedValueUtils = __webpack_require__(216);
 	var ReactBrowserComponentMixin = __webpack_require__(143);
@@ -14644,7 +14644,7 @@
 		"gitHead": "387d4965220a3cc59033905963aa6658101f3565",
 		"_id": "react-crossroads@0.4.0",
 		"_shasum": "e3f99a09387c0379ca7fe34c53d7ddd20b7acecf",
-		"_from": "react-crossroads@"
+		"_from": "react-crossroads@^0.4.0"
 	}
 
 /***/ },
@@ -14657,10 +14657,10 @@
 	var React = __webpack_require__(243)["default"];
 	var classSet = __webpack_require__(244)["default"];
 	var BootstrapMixin = __webpack_require__(237)["default"];
-	var PropTypes = __webpack_require__(238)["default"];
+	var PropTypes = __webpack_require__(242)["default"];
 	var utils = __webpack_require__(239)["default"];
 	var Nav = __webpack_require__(181)["default"];
-	var ValidComponentChildren = __webpack_require__(240)["default"];
+	var ValidComponentChildren = __webpack_require__(241)["default"];
 
 
 	var Navbar = React.createClass({displayName: 'Navbar',
@@ -14802,10 +14802,10 @@
 	var React = __webpack_require__(243)["default"];
 	var classSet = __webpack_require__(244)["default"];
 	var BootstrapMixin = __webpack_require__(237)["default"];
-	var CollapsableMixin = __webpack_require__(241)["default"];
+	var CollapsableMixin = __webpack_require__(238)["default"];
 	var utils = __webpack_require__(239)["default"];
-	var domUtils = __webpack_require__(242)["default"];
-	var ValidComponentChildren = __webpack_require__(240)["default"];
+	var domUtils = __webpack_require__(240)["default"];
+	var ValidComponentChildren = __webpack_require__(241)["default"];
 
 
 	var Nav = React.createClass({displayName: 'Nav',
@@ -18161,6 +18161,44 @@
 /* 214 */
 /***/ function(module, exports, __webpack_require__) {
 
+	/**
+	 * Copyright 2013-2014 Facebook, Inc.
+	 *
+	 * Licensed under the Apache License, Version 2.0 (the "License");
+	 * you may not use this file except in compliance with the License.
+	 * You may obtain a copy of the License at
+	 *
+	 * http://www.apache.org/licenses/LICENSE-2.0
+	 *
+	 * Unless required by applicable law or agreed to in writing, software
+	 * distributed under the License is distributed on an "AS IS" BASIS,
+	 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	 * See the License for the specific language governing permissions and
+	 * limitations under the License.
+	 *
+	 * @providesModule AutoFocusMixin
+	 * @typechecks static-only
+	 */
+
+	"use strict";
+
+	var focusNode = __webpack_require__(256);
+
+	var AutoFocusMixin = {
+	  componentDidMount: function() {
+	    if (this.props.autoFocus) {
+	      focusNode(this.getDOMNode());
+	    }
+	  }
+	};
+
+	module.exports = AutoFocusMixin;
+
+
+/***/ },
+/* 215 */
+/***/ function(module, exports, __webpack_require__) {
+
 	/* WEBPACK VAR INJECTION */(function(process) {/**
 	 * Copyright 2014 Facebook, Inc.
 	 *
@@ -18215,44 +18253,6 @@
 	module.exports = LocalEventTrapMixin;
 	
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(117)))
-
-/***/ },
-/* 215 */
-/***/ function(module, exports, __webpack_require__) {
-
-	/**
-	 * Copyright 2013-2014 Facebook, Inc.
-	 *
-	 * Licensed under the Apache License, Version 2.0 (the "License");
-	 * you may not use this file except in compliance with the License.
-	 * You may obtain a copy of the License at
-	 *
-	 * http://www.apache.org/licenses/LICENSE-2.0
-	 *
-	 * Unless required by applicable law or agreed to in writing, software
-	 * distributed under the License is distributed on an "AS IS" BASIS,
-	 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-	 * See the License for the specific language governing permissions and
-	 * limitations under the License.
-	 *
-	 * @providesModule AutoFocusMixin
-	 * @typechecks static-only
-	 */
-
-	"use strict";
-
-	var focusNode = __webpack_require__(256);
-
-	var AutoFocusMixin = {
-	  componentDidMount: function() {
-	    if (this.props.autoFocus) {
-	      focusNode(this.getDOMNode());
-	    }
-	  }
-	};
-
-	module.exports = AutoFocusMixin;
-
 
 /***/ },
 /* 216 */
@@ -19968,19 +19968,138 @@
 
 	"use strict";
 	var React = __webpack_require__(243)["default"];
+	var ReactTransitionEvents = __webpack_require__(263)["default"];
 
-	exports["default"] = {
-	  componentClass: function (props, propName, componentName) {
-	    return React.isValidClass(props[propName]);
+	var CollapsableMixin = {
+
+	  propTypes: {
+	    collapsable: React.PropTypes.bool,
+	    defaultExpanded: React.PropTypes.bool,
+	    expanded: React.PropTypes.bool
+	  },
+
+	  getInitialState: function () {
+	    return {
+	      expanded: this.props.defaultExpanded != null ? this.props.defaultExpanded : null,
+	      collapsing: false
+	    };
+	  },
+
+	  handleTransitionEnd: function () {
+	    this._collapseEnd = true;
+	    this.setState({
+	      collapsing: false
+	    });
+	  },
+
+	  componentWillReceiveProps: function (newProps) {
+	    if (this.props.collapsable && newProps.expanded !== this.props.expanded) {
+	      this._collapseEnd = false;
+	      this.setState({
+	        collapsing: true
+	      });
+	    }
+	  },
+
+	  _addEndTransitionListener: function () {
+	    var node = this.getCollapsableDOMNode();
+
+	    if (node) {
+	      ReactTransitionEvents.addEndEventListener(
+	        node,
+	        this.handleTransitionEnd
+	      );
+	    }
+	  },
+
+	  _removeEndTransitionListener: function () {
+	    var node = this.getCollapsableDOMNode();
+
+	    if (node) {
+	      ReactTransitionEvents.addEndEventListener(
+	        node,
+	        this.handleTransitionEnd
+	      );
+	    }
+	  },
+
+	  componentDidMount: function () {
+	    this._afterRender();
+	  },
+
+	  componentWillUnmount: function () {
+	    this._removeEndTransitionListener();
+	  },
+
+	  componentWillUpdate: function (nextProps) {
+	    var dimension = (typeof this.getCollapsableDimension === 'function') ?
+	      this.getCollapsableDimension() : 'height';
+	    var node = this.getCollapsableDOMNode();
+
+	    this._removeEndTransitionListener();
+	    if (node && nextProps.expanded !== this.props.expanded && this.props.expanded) {
+	      node.style[dimension] = this.getCollapsableDimensionValue() + 'px';
+	    }
+	  },
+
+	  componentDidUpdate: function (prevProps, prevState) {
+	    if (this.state.collapsing !== prevState.collapsing) {
+	      this._afterRender();
+	    }
+	  },
+
+	  _afterRender: function () {
+	    if (!this.props.collapsable) {
+	      return;
+	    }
+
+	    this._addEndTransitionListener();
+	    setTimeout(this._updateDimensionAfterRender, 0);
+	  },
+
+	  _updateDimensionAfterRender: function () {
+	    var dimension = (typeof this.getCollapsableDimension === 'function') ?
+	      this.getCollapsableDimension() : 'height';
+	    var node = this.getCollapsableDOMNode();
+
+	    if (node) {
+	      node.style[dimension] = this.isExpanded() ?
+	        this.getCollapsableDimensionValue() + 'px' : '0px';
+	    }
+	  },
+
+	  isExpanded: function () {
+	    return (this.props.expanded != null) ?
+	      this.props.expanded : this.state.expanded;
+	  },
+
+	  getCollapsableClassSet: function (className) {
+	    var classes = {};
+
+	    if (typeof className === 'string') {
+	      className.split(' ').forEach(function (className) {
+	        if (className) {
+	          classes[className] = true;
+	        }
+	      });
+	    }
+
+	    classes.collapsing = this.state.collapsing;
+	    classes.collapse = !this.state.collapsing;
+	    classes['in'] = this.isExpanded() && !this.state.collapsing;
+
+	    return classes;
 	  }
 	};
+
+	exports["default"] = CollapsableMixin;
 
 /***/ },
 /* 239 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var cloneWithProps = __webpack_require__(263)["default"];
+	var cloneWithProps = __webpack_require__(264)["default"];
 
 	// From https://www.npmjs.org/package/extend
 	var hasOwn = Object.prototype.hasOwnProperty;
@@ -20171,6 +20290,86 @@
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
+	exports["default"] = {
+	  getComputedStyles: function (elem) {
+	    return elem.ownerDocument.defaultView.getComputedStyle(elem, null);
+	  },
+
+	  getOffset: function (DOMNode) {
+	    if (window.jQuery) {
+	      return window.jQuery(DOMNode).offset();
+	    }
+
+	    var docElem = document.documentElement;
+	    var box = { top: 0, left: 0 };
+
+	    // If we don't have gBCR, just use 0,0 rather than error
+	    // BlackBerry 5, iOS 3 (original iPhone)
+	    if ( typeof DOMNode.getBoundingClientRect !== 'undefined' ) {
+	      box = DOMNode.getBoundingClientRect();
+	    }
+
+	    return {
+	      top: box.top + window.pageYOffset - docElem.clientTop,
+	      left: box.left + window.pageXOffset - docElem.clientLeft
+	    };
+	  },
+
+	  getPosition: function (elem, offsetParent) {
+	    if (window.jQuery) {
+	      return window.jQuery(elem).position();
+	    }
+
+	    var offset,
+	        parentOffset = {top: 0, left: 0};
+
+	    // Fixed elements are offset from window (parentOffset = {top:0, left: 0}, because it is its only offset parent
+	    if (this.getComputedStyles(elem).position === 'fixed' ) {
+	      // We assume that getBoundingClientRect is available when computed position is fixed
+	      offset = elem.getBoundingClientRect();
+
+	    } else {
+	      if (!offsetParent) {
+	        // Get *real* offsetParent
+	        offsetParent = this.offsetParent(elem);
+	      }
+
+	      // Get correct offsets
+	      offset = this.getOffset(elem);
+	      if ( offsetParent.nodeName !== 'HTML') {
+	        parentOffset = this.getOffset(offsetParent);
+	      }
+
+	      // Add offsetParent borders
+	      parentOffset.top += parseInt(this.getComputedStyles(offsetParent).borderTopWidth, 10);
+	      parentOffset.left += parseInt(this.getComputedStyles(offsetParent).borderLeftWidth, 10);
+	    }
+
+	    // Subtract parent offsets and element margins
+	    return {
+	      top: offset.top - parentOffset.top - parseInt(this.getComputedStyles(elem).marginTop, 10),
+	      left: offset.left - parentOffset.left - parseInt(this.getComputedStyles(elem).marginLeft, 10)
+	    };
+	  },
+
+	  offsetParent: function (elem) {
+	    var docElem = document.documentElement;
+	    var offsetParent = elem.offsetParent || docElem;
+
+	    while ( offsetParent && ( offsetParent.nodeName !== 'HTML' &&
+	      this.getComputedStyles(offsetParent).position === 'static' ) ) {
+	      offsetParent = offsetParent.offsetParent;
+	    }
+
+	    return offsetParent || docElem;
+	  }
+	};
+
+/***/ },
+/* 241 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
 	var React = __webpack_require__(243)["default"];
 
 
@@ -20264,214 +20463,15 @@
 	};
 
 /***/ },
-/* 241 */
-/***/ function(module, exports, __webpack_require__) {
-
-	"use strict";
-	var React = __webpack_require__(243)["default"];
-	var ReactTransitionEvents = __webpack_require__(264)["default"];
-
-	var CollapsableMixin = {
-
-	  propTypes: {
-	    collapsable: React.PropTypes.bool,
-	    defaultExpanded: React.PropTypes.bool,
-	    expanded: React.PropTypes.bool
-	  },
-
-	  getInitialState: function () {
-	    return {
-	      expanded: this.props.defaultExpanded != null ? this.props.defaultExpanded : null,
-	      collapsing: false
-	    };
-	  },
-
-	  handleTransitionEnd: function () {
-	    this._collapseEnd = true;
-	    this.setState({
-	      collapsing: false
-	    });
-	  },
-
-	  componentWillReceiveProps: function (newProps) {
-	    if (this.props.collapsable && newProps.expanded !== this.props.expanded) {
-	      this._collapseEnd = false;
-	      this.setState({
-	        collapsing: true
-	      });
-	    }
-	  },
-
-	  _addEndTransitionListener: function () {
-	    var node = this.getCollapsableDOMNode();
-
-	    if (node) {
-	      ReactTransitionEvents.addEndEventListener(
-	        node,
-	        this.handleTransitionEnd
-	      );
-	    }
-	  },
-
-	  _removeEndTransitionListener: function () {
-	    var node = this.getCollapsableDOMNode();
-
-	    if (node) {
-	      ReactTransitionEvents.addEndEventListener(
-	        node,
-	        this.handleTransitionEnd
-	      );
-	    }
-	  },
-
-	  componentDidMount: function () {
-	    this._afterRender();
-	  },
-
-	  componentWillUnmount: function () {
-	    this._removeEndTransitionListener();
-	  },
-
-	  componentWillUpdate: function (nextProps) {
-	    var dimension = (typeof this.getCollapsableDimension === 'function') ?
-	      this.getCollapsableDimension() : 'height';
-	    var node = this.getCollapsableDOMNode();
-
-	    this._removeEndTransitionListener();
-	    if (node && nextProps.expanded !== this.props.expanded && this.props.expanded) {
-	      node.style[dimension] = this.getCollapsableDimensionValue() + 'px';
-	    }
-	  },
-
-	  componentDidUpdate: function (prevProps, prevState) {
-	    if (this.state.collapsing !== prevState.collapsing) {
-	      this._afterRender();
-	    }
-	  },
-
-	  _afterRender: function () {
-	    if (!this.props.collapsable) {
-	      return;
-	    }
-
-	    this._addEndTransitionListener();
-	    setTimeout(this._updateDimensionAfterRender, 0);
-	  },
-
-	  _updateDimensionAfterRender: function () {
-	    var dimension = (typeof this.getCollapsableDimension === 'function') ?
-	      this.getCollapsableDimension() : 'height';
-	    var node = this.getCollapsableDOMNode();
-
-	    if (node) {
-	      node.style[dimension] = this.isExpanded() ?
-	        this.getCollapsableDimensionValue() + 'px' : '0px';
-	    }
-	  },
-
-	  isExpanded: function () {
-	    return (this.props.expanded != null) ?
-	      this.props.expanded : this.state.expanded;
-	  },
-
-	  getCollapsableClassSet: function (className) {
-	    var classes = {};
-
-	    if (typeof className === 'string') {
-	      className.split(' ').forEach(function (className) {
-	        if (className) {
-	          classes[className] = true;
-	        }
-	      });
-	    }
-
-	    classes.collapsing = this.state.collapsing;
-	    classes.collapse = !this.state.collapsing;
-	    classes['in'] = this.isExpanded() && !this.state.collapsing;
-
-	    return classes;
-	  }
-	};
-
-	exports["default"] = CollapsableMixin;
-
-/***/ },
 /* 242 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
+	var React = __webpack_require__(243)["default"];
+
 	exports["default"] = {
-	  getComputedStyles: function (elem) {
-	    return elem.ownerDocument.defaultView.getComputedStyle(elem, null);
-	  },
-
-	  getOffset: function (DOMNode) {
-	    if (window.jQuery) {
-	      return window.jQuery(DOMNode).offset();
-	    }
-
-	    var docElem = document.documentElement;
-	    var box = { top: 0, left: 0 };
-
-	    // If we don't have gBCR, just use 0,0 rather than error
-	    // BlackBerry 5, iOS 3 (original iPhone)
-	    if ( typeof DOMNode.getBoundingClientRect !== 'undefined' ) {
-	      box = DOMNode.getBoundingClientRect();
-	    }
-
-	    return {
-	      top: box.top + window.pageYOffset - docElem.clientTop,
-	      left: box.left + window.pageXOffset - docElem.clientLeft
-	    };
-	  },
-
-	  getPosition: function (elem, offsetParent) {
-	    if (window.jQuery) {
-	      return window.jQuery(elem).position();
-	    }
-
-	    var offset,
-	        parentOffset = {top: 0, left: 0};
-
-	    // Fixed elements are offset from window (parentOffset = {top:0, left: 0}, because it is its only offset parent
-	    if (this.getComputedStyles(elem).position === 'fixed' ) {
-	      // We assume that getBoundingClientRect is available when computed position is fixed
-	      offset = elem.getBoundingClientRect();
-
-	    } else {
-	      if (!offsetParent) {
-	        // Get *real* offsetParent
-	        offsetParent = this.offsetParent(elem);
-	      }
-
-	      // Get correct offsets
-	      offset = this.getOffset(elem);
-	      if ( offsetParent.nodeName !== 'HTML') {
-	        parentOffset = this.getOffset(offsetParent);
-	      }
-
-	      // Add offsetParent borders
-	      parentOffset.top += parseInt(this.getComputedStyles(offsetParent).borderTopWidth, 10);
-	      parentOffset.left += parseInt(this.getComputedStyles(offsetParent).borderLeftWidth, 10);
-	    }
-
-	    // Subtract parent offsets and element margins
-	    return {
-	      top: offset.top - parentOffset.top - parseInt(this.getComputedStyles(elem).marginTop, 10),
-	      left: offset.left - parentOffset.left - parseInt(this.getComputedStyles(elem).marginLeft, 10)
-	    };
-	  },
-
-	  offsetParent: function (elem) {
-	    var docElem = document.documentElement;
-	    var offsetParent = elem.offsetParent || docElem;
-
-	    while ( offsetParent && ( offsetParent.nodeName !== 'HTML' &&
-	      this.getComputedStyles(offsetParent).position === 'static' ) ) {
-	      offsetParent = offsetParent.offsetParent;
-	    }
-
-	    return offsetParent || docElem;
+	  componentClass: function (props, propName, componentName) {
+	    return React.isValidClass(props[propName]);
 	  }
 	};
 
@@ -29849,43 +29849,6 @@
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	"use strict";
-
-	var ReactPropTransferer = __webpack_require__(277)["default"];
-
-	var keyOf = __webpack_require__(278)["default"];
-
-	var CHILDREN_PROP = keyOf({children: null});
-
-	/**
-	 * Sometimes you want to change the props of a child passed to you. Usually
-	 * this is to add a CSS class.
-	 *
-	 * @param {object} child child component you'd like to clone
-	 * @param {object} props props you'd like to modify. They will be merged
-	 * as if you used `transferPropsTo()`.
-	 * @return {object} a clone of child with props merged in.
-	 */
-	function cloneWithProps (child, props) {
-	  var newProps = ReactPropTransferer.mergeProps(props, child.props);
-
-	  // Use `child.props.children` if it is provided.
-	  if (!newProps.hasOwnProperty(CHILDREN_PROP) &&
-	      child.props.hasOwnProperty(CHILDREN_PROP)) {
-	    newProps.children = child.props.children;
-	  }
-
-	  return child.constructor.ConvenienceConstructor ?
-	    child.constructor.ConvenienceConstructor(newProps) : child.constructor(newProps);
-	}
-
-	exports["default"] = cloneWithProps;
-
-/***/ },
-/* 264 */
-/***/ function(module, exports, __webpack_require__) {
-
-	"use strict";
 	/**
 	 * Copyright 2013-2014 Facebook, Inc.
 	 *
@@ -29906,7 +29869,7 @@
 
 	"use strict";
 
-	var ExecutionEnvironment = __webpack_require__(279)["default"];
+	var ExecutionEnvironment = __webpack_require__(277)["default"];
 
 	var EVENT_NAME_MAP = {
 	  transitionend: {
@@ -29983,6 +29946,43 @@
 	};
 
 	exports["default"] = ReactTransitionEvents;
+
+/***/ },
+/* 264 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	"use strict";
+
+	var ReactPropTransferer = __webpack_require__(278)["default"];
+
+	var keyOf = __webpack_require__(279)["default"];
+
+	var CHILDREN_PROP = keyOf({children: null});
+
+	/**
+	 * Sometimes you want to change the props of a child passed to you. Usually
+	 * this is to add a CSS class.
+	 *
+	 * @param {object} child child component you'd like to clone
+	 * @param {object} props props you'd like to modify. They will be merged
+	 * as if you used `transferPropsTo()`.
+	 * @return {object} a clone of child with props merged in.
+	 */
+	function cloneWithProps (child, props) {
+	  var newProps = ReactPropTransferer.mergeProps(props, child.props);
+
+	  // Use `child.props.children` if it is provided.
+	  if (!newProps.hasOwnProperty(CHILDREN_PROP) &&
+	      child.props.hasOwnProperty(CHILDREN_PROP)) {
+	    newProps.children = child.props.children;
+	  }
+
+	  return child.constructor.ConvenienceConstructor ?
+	    child.constructor.ConvenienceConstructor(newProps) : child.constructor(newProps);
+	}
+
+	exports["default"] = cloneWithProps;
 
 /***/ },
 /* 265 */
@@ -30378,7 +30378,7 @@
 	var React = __webpack_require__(51);
 
 	var ReactTransitionGroup = __webpack_require__(269);
-	var ReactCSSTransitionGroupChild = __webpack_require__(284);
+	var ReactCSSTransitionGroupChild = __webpack_require__(285);
 
 	var ReactCSSTransitionGroup = React.createClass({
 	  displayName: 'ReactCSSTransitionGroup',
@@ -30448,7 +30448,7 @@
 	"use strict";
 
 	var React = __webpack_require__(51);
-	var ReactTransitionChildMapping = __webpack_require__(285);
+	var ReactTransitionChildMapping = __webpack_require__(284);
 
 	var cloneWithProps = __webpack_require__(271);
 	var emptyFunction = __webpack_require__(176);
@@ -31628,6 +31628,56 @@
 
 	"use strict";
 	/**
+	 * Copyright 2013-2014 Facebook, Inc.
+	 *
+	 * Licensed under the Apache License, Version 2.0 (the "License");
+	 * you may not use this file except in compliance with the License.
+	 * You may obtain a copy of the License at
+	 *
+	 * http://www.apache.org/licenses/LICENSE-2.0
+	 *
+	 * Unless required by applicable law or agreed to in writing, software
+	 * distributed under the License is distributed on an "AS IS" BASIS,
+	 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	 * See the License for the specific language governing permissions and
+	 * limitations under the License.
+	 *
+	 * @providesModule ExecutionEnvironment
+	 */
+
+	/*jslint evil: true */
+
+	"use strict";
+
+	var canUseDOM = typeof window !== 'undefined';
+
+	/**
+	 * Simple, lightweight module assisting with the detection and context of
+	 * Worker. Helps avoid circular dependencies and allows code to reason about
+	 * whether or not they are in a Worker, even if they never include the main
+	 * `ReactWorker` dependency.
+	 */
+	var ExecutionEnvironment = {
+
+	  canUseDOM: canUseDOM,
+
+	  canUseWorkers: typeof Worker !== 'undefined',
+
+	  canUseEventListeners:
+	    canUseDOM && (window.addEventListener || window.attachEvent),
+
+	  isInWorker: !canUseDOM // For now, this is true - might change in the future.
+
+	};
+
+	exports["default"] = ExecutionEnvironment;
+
+/***/ },
+/* 278 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	/**
 	 * Copyright 2013 Facebook, Inc.
 	 *
 	 * Licensed under the Apache License, Version 2.0 (the "License");
@@ -31767,7 +31817,7 @@
 	exports["default"] = ReactPropTransferer;
 
 /***/ },
-/* 278 */
+/* 279 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -31794,56 +31844,6 @@
 
 
 	exports["default"] = keyOf;
-
-/***/ },
-/* 279 */
-/***/ function(module, exports, __webpack_require__) {
-
-	"use strict";
-	/**
-	 * Copyright 2013-2014 Facebook, Inc.
-	 *
-	 * Licensed under the Apache License, Version 2.0 (the "License");
-	 * you may not use this file except in compliance with the License.
-	 * You may obtain a copy of the License at
-	 *
-	 * http://www.apache.org/licenses/LICENSE-2.0
-	 *
-	 * Unless required by applicable law or agreed to in writing, software
-	 * distributed under the License is distributed on an "AS IS" BASIS,
-	 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-	 * See the License for the specific language governing permissions and
-	 * limitations under the License.
-	 *
-	 * @providesModule ExecutionEnvironment
-	 */
-
-	/*jslint evil: true */
-
-	"use strict";
-
-	var canUseDOM = typeof window !== 'undefined';
-
-	/**
-	 * Simple, lightweight module assisting with the detection and context of
-	 * Worker. Helps avoid circular dependencies and allows code to reason about
-	 * whether or not they are in a Worker, even if they never include the main
-	 * `ReactWorker` dependency.
-	 */
-	var ExecutionEnvironment = {
-
-	  canUseDOM: canUseDOM,
-
-	  canUseWorkers: typeof Worker !== 'undefined',
-
-	  canUseEventListeners:
-	    canUseDOM && (window.addEventListener || window.attachEvent),
-
-	  isInWorker: !canUseDOM // For now, this is true - might change in the future.
-
-	};
-
-	exports["default"] = ExecutionEnvironment;
 
 /***/ },
 /* 280 */
@@ -32340,6 +32340,118 @@
 /* 284 */
 /***/ function(module, exports, __webpack_require__) {
 
+	/**
+	 * Copyright 2013-2014 Facebook, Inc.
+	 *
+	 * Licensed under the Apache License, Version 2.0 (the "License");
+	 * you may not use this file except in compliance with the License.
+	 * You may obtain a copy of the License at
+	 *
+	 * http://www.apache.org/licenses/LICENSE-2.0
+	 *
+	 * Unless required by applicable law or agreed to in writing, software
+	 * distributed under the License is distributed on an "AS IS" BASIS,
+	 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	 * See the License for the specific language governing permissions and
+	 * limitations under the License.
+	 *
+	 * @typechecks static-only
+	 * @providesModule ReactTransitionChildMapping
+	 */
+
+	"use strict";
+
+	var ReactChildren = __webpack_require__(56);
+
+	var ReactTransitionChildMapping = {
+	  /**
+	   * Given `this.props.children`, return an object mapping key to child. Just
+	   * simple syntactic sugar around ReactChildren.map().
+	   *
+	   * @param {*} children `this.props.children`
+	   * @return {object} Mapping of key to child
+	   */
+	  getChildMapping: function(children) {
+	    return ReactChildren.map(children, function(child) {
+	      return child;
+	    });
+	  },
+
+	  /**
+	   * When you're adding or removing children some may be added or removed in the
+	   * same render pass. We want ot show *both* since we want to simultaneously
+	   * animate elements in and out. This function takes a previous set of keys
+	   * and a new set of keys and merges them with its best guess of the correct
+	   * ordering. In the future we may expose some of the utilities in
+	   * ReactMultiChild to make this easy, but for now React itself does not
+	   * directly have this concept of the union of prevChildren and nextChildren
+	   * so we implement it here.
+	   *
+	   * @param {object} prev prev children as returned from
+	   * `ReactTransitionChildMapping.getChildMapping()`.
+	   * @param {object} next next children as returned from
+	   * `ReactTransitionChildMapping.getChildMapping()`.
+	   * @return {object} a key set that contains all keys in `prev` and all keys
+	   * in `next` in a reasonable order.
+	   */
+	  mergeChildMappings: function(prev, next) {
+	    prev = prev || {};
+	    next = next || {};
+
+	    function getValueForKey(key) {
+	      if (next.hasOwnProperty(key)) {
+	        return next[key];
+	      } else {
+	        return prev[key];
+	      }
+	    }
+
+	    // For each key of `next`, the list of keys to insert before that key in
+	    // the combined list
+	    var nextKeysPending = {};
+
+	    var pendingKeys = [];
+	    for (var prevKey in prev) {
+	      if (next.hasOwnProperty(prevKey)) {
+	        if (pendingKeys.length) {
+	          nextKeysPending[prevKey] = pendingKeys;
+	          pendingKeys = [];
+	        }
+	      } else {
+	        pendingKeys.push(prevKey);
+	      }
+	    }
+
+	    var i;
+	    var childMapping = {};
+	    for (var nextKey in next) {
+	      if (nextKeysPending.hasOwnProperty(nextKey)) {
+	        for (i = 0; i < nextKeysPending[nextKey].length; i++) {
+	          var pendingNextKey = nextKeysPending[nextKey][i];
+	          childMapping[nextKeysPending[nextKey][i]] = getValueForKey(
+	            pendingNextKey
+	          );
+	        }
+	      }
+	      childMapping[nextKey] = getValueForKey(nextKey);
+	    }
+
+	    // Finally, add the keys which didn't appear before any key in `next`
+	    for (i = 0; i < pendingKeys.length; i++) {
+	      childMapping[pendingKeys[i]] = getValueForKey(pendingKeys[i]);
+	    }
+
+	    return childMapping;
+	  }
+	};
+
+	module.exports = ReactTransitionChildMapping;
+
+
+/***/ },
+/* 285 */
+/***/ function(module, exports, __webpack_require__) {
+
 	/* WEBPACK VAR INJECTION */(function(process) {/**
 	 * Copyright 2013-2014 Facebook, Inc.
 	 *
@@ -32477,118 +32589,6 @@
 	module.exports = ReactCSSTransitionGroupChild;
 	
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(117)))
-
-/***/ },
-/* 285 */
-/***/ function(module, exports, __webpack_require__) {
-
-	/**
-	 * Copyright 2013-2014 Facebook, Inc.
-	 *
-	 * Licensed under the Apache License, Version 2.0 (the "License");
-	 * you may not use this file except in compliance with the License.
-	 * You may obtain a copy of the License at
-	 *
-	 * http://www.apache.org/licenses/LICENSE-2.0
-	 *
-	 * Unless required by applicable law or agreed to in writing, software
-	 * distributed under the License is distributed on an "AS IS" BASIS,
-	 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-	 * See the License for the specific language governing permissions and
-	 * limitations under the License.
-	 *
-	 * @typechecks static-only
-	 * @providesModule ReactTransitionChildMapping
-	 */
-
-	"use strict";
-
-	var ReactChildren = __webpack_require__(56);
-
-	var ReactTransitionChildMapping = {
-	  /**
-	   * Given `this.props.children`, return an object mapping key to child. Just
-	   * simple syntactic sugar around ReactChildren.map().
-	   *
-	   * @param {*} children `this.props.children`
-	   * @return {object} Mapping of key to child
-	   */
-	  getChildMapping: function(children) {
-	    return ReactChildren.map(children, function(child) {
-	      return child;
-	    });
-	  },
-
-	  /**
-	   * When you're adding or removing children some may be added or removed in the
-	   * same render pass. We want ot show *both* since we want to simultaneously
-	   * animate elements in and out. This function takes a previous set of keys
-	   * and a new set of keys and merges them with its best guess of the correct
-	   * ordering. In the future we may expose some of the utilities in
-	   * ReactMultiChild to make this easy, but for now React itself does not
-	   * directly have this concept of the union of prevChildren and nextChildren
-	   * so we implement it here.
-	   *
-	   * @param {object} prev prev children as returned from
-	   * `ReactTransitionChildMapping.getChildMapping()`.
-	   * @param {object} next next children as returned from
-	   * `ReactTransitionChildMapping.getChildMapping()`.
-	   * @return {object} a key set that contains all keys in `prev` and all keys
-	   * in `next` in a reasonable order.
-	   */
-	  mergeChildMappings: function(prev, next) {
-	    prev = prev || {};
-	    next = next || {};
-
-	    function getValueForKey(key) {
-	      if (next.hasOwnProperty(key)) {
-	        return next[key];
-	      } else {
-	        return prev[key];
-	      }
-	    }
-
-	    // For each key of `next`, the list of keys to insert before that key in
-	    // the combined list
-	    var nextKeysPending = {};
-
-	    var pendingKeys = [];
-	    for (var prevKey in prev) {
-	      if (next.hasOwnProperty(prevKey)) {
-	        if (pendingKeys.length) {
-	          nextKeysPending[prevKey] = pendingKeys;
-	          pendingKeys = [];
-	        }
-	      } else {
-	        pendingKeys.push(prevKey);
-	      }
-	    }
-
-	    var i;
-	    var childMapping = {};
-	    for (var nextKey in next) {
-	      if (nextKeysPending.hasOwnProperty(nextKey)) {
-	        for (i = 0; i < nextKeysPending[nextKey].length; i++) {
-	          var pendingNextKey = nextKeysPending[nextKey][i];
-	          childMapping[nextKeysPending[nextKey][i]] = getValueForKey(
-	            pendingNextKey
-	          );
-	        }
-	      }
-	      childMapping[nextKey] = getValueForKey(nextKey);
-	    }
-
-	    // Finally, add the keys which didn't appear before any key in `next`
-	    for (i = 0; i < pendingKeys.length; i++) {
-	      childMapping[pendingKeys[i]] = getValueForKey(pendingKeys[i]);
-	    }
-
-	    return childMapping;
-	  }
-	};
-
-	module.exports = ReactTransitionChildMapping;
-
 
 /***/ },
 /* 286 */
