@@ -9,6 +9,7 @@ ApplicationNavBar = React.createClass
   render: ->
     brand =
       <a href='/' className='navbar-brand'>
+        <img src='/images/react-crossroads-transparent.png' />
         <span className='rc-react'>React</span>-<span className='rc-crossroads'>Crossroads</span>
       </a>
 

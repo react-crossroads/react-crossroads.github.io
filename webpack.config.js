@@ -13,7 +13,8 @@ module.exports = {
       { test: /\.cjsx$/, loader: "coffee!cjsx" },
       { test: /\.less$/, loader: "style!css!less" },
       { test: /\.css$/, loader: "style!css" },
-      { test:/\.json$/, loader: "json" }
+      { test:/\.json$/, loader: "json" },
+      { test:/\.jpe?g$|\.gif$|\.png$/, loader: "url?prefix=img/&limit=5000" }
     ]
   },
   resolve: {

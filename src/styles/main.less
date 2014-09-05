@@ -2,6 +2,8 @@
 
 @import "./variables.less";
 @import "./application-navbar.less";
+@import "./page-header.less";
+@import "./home.less";
 @import "./footer.less";
 
 .rc-react {
@@ -11,3 +13,23 @@
 .rc-crossroads {
   color: @rc-crossroads;
 }
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
