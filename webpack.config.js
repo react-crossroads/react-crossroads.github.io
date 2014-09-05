@@ -1,3 +1,4 @@
+var webpack = require('webpack');
 var path = require('path');
 
 module.exports = {
@@ -21,5 +22,9 @@ module.exports = {
   },
   resolve: {
     extensions: ['', '.coffee', '.cjsx', '.js', '.jsx', '.less']
-  }
+  },
+  plugins: [
+    new webpack.optimize.UglifyJsPlugin(),
+    new webpack.optimize.DedupePlugin()
+  ]
 };
