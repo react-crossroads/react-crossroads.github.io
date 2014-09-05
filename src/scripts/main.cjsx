@@ -1,4 +1,3 @@
-debugger
 require './google-analytics' if PRODUCTION
 
 React = require 'react'
