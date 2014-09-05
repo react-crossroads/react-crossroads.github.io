@@ -20,7 +20,8 @@ ApplicationNavBar = React.createClass
         brand={brand}
         staticTop>
         <Nav>
-          <NavItem>Test</NavItem>
+          <NavItem href="https://github.com/mtscout6/react-crossroads">Github</NavItem>
+          <NavItem href="https://www.npmjs.org/package/react-crossroads">Npm</NavItem>
         </Nav>
       </NavBar>
       <main>
