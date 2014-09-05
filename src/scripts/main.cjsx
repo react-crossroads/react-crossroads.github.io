@@ -1,4 +1,5 @@
-require './google-analytics'
+debugger
+require './google-analytics' if PRODUCTION
 
 React = require 'react'
 global.React = React # For Chrome dev tool support

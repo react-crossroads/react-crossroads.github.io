@@ -12,7 +12,12 @@ config.module.loaders[1].loader = 'react-hot!' + config.module.loaders[1].loader
 
 config.plugins = [
   new webpack.HotModuleReplacementPlugin(),
-  new webpack.optimize.DedupePlugin()
+  new webpack.optimize.DedupePlugin(),
+  new webpack.DefinePlugin({
+    PRODUCTION: false,
+    DEVELOPMENT: true,
+    'process.env.NODE_ENV': 'development'
+  })
 ];
 
 module.exports = config;

@@ -10,8 +10,8 @@ module.exports = {
   },
   module: {
     loaders: [
-      { test: /\.coffee$/, loader: "coffee" },
-      { test: /\.cjsx$/, loader: "coffee!cjsx" },
+      { test: /\.coffee$/, loader: "envify-loader!coffee" },
+      { test: /\.cjsx$/, loader: "envify-loader!coffee!cjsx" },
       { test: /\.less$/, loader: "style!css!less" },
       { test: /\.css$/, loader: "style!css" },
       { test:/\.json$/, loader: "json" },
@@ -25,6 +25,10 @@ module.exports = {
   },
   plugins: [
     new webpack.optimize.UglifyJsPlugin(),
-    new webpack.optimize.DedupePlugin()
+    new webpack.optimize.DedupePlugin(),
+    new webpack.DefinePlugin({
+      PRODUCTION: true,
+      DEVELOPMENT: false
+    })
   ]
 };
