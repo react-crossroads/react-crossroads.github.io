@@ -14,7 +14,7 @@ Documenation = React.createClass
         <div className='h1'>
           <i className="fa fa-cogs"></i> Work in Progress!
         </div>
-        In the mean time check out the address book <a href='https://github.com/react-crossroads/react-crossroads/tree/master/examples/address-book'>example</a> in the source.
+        In the meantime check out the address book <a href='https://github.com/react-crossroads/react-crossroads/tree/master/examples/address-book'>example</a> in the source.
       </div>
     </div>
 
