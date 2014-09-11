@@ -26,7 +26,7 @@ PageFooter = React.createClass
           <li>·</li>
           <li><a href="https://github.com/react-crossroads/react-crossroads/releases">Releases</a></li>
           <li>·</li>
-          <li><img src='http://img.shields.io/npm/dm/react-crossroads.svg' /></li>
+          <li><a href="http://npm-stat.com/charts.html?package=react-crossroads"><img src='http://img.shields.io/npm/dm/react-crossroads.svg' /></a></li>
         </ul>
       </div>
     </footer>
