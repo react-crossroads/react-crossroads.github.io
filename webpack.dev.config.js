@@ -16,7 +16,7 @@ config.plugins = [
   new webpack.DefinePlugin({
     PRODUCTION: false,
     DEVELOPMENT: true,
-    'process.env.NODE_ENV': 'development'
+    'process.env.NODE_ENV': '"development"'
   })
 ];
 

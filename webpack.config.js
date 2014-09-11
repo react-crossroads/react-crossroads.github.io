@@ -28,7 +28,8 @@ module.exports = {
     new webpack.optimize.DedupePlugin(),
     new webpack.DefinePlugin({
       PRODUCTION: true,
-      DEVELOPMENT: false
+      DEVELOPMENT: false,
+      'process.env.NODE_ENV': '"production"'
     })
   ]
 };
