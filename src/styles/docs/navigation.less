@@ -1,0 +1,37 @@
+.rc-doc-navigation {
+  padding: 0;
+
+  li {
+    height: 30px;
+
+    a {
+      padding: 4px 0px;
+      font-size: 13px;
+      font-weight: 500;
+      color: @rc-docs-nav-link-color;
+      transition: all 0.5s ease;
+
+      &:hover, &:focus, {
+        font-size: 15px;
+        font-weight: bold;
+        color: @rc-docs-nav-link-hover-color;
+        background-color: transparent;
+        border-right: 1px solid @rc-docs-nav-link-hover-color;
+      }
+    }
+
+    &.active {
+      a {
+        font-size: 15px;
+        font-weight: bold;
+        color: @rc-docs-nav-link-hover-color;
+        background-color: transparent;
+        border-right: 2px solid @rc-docs-nav-link-hover-color;
+      }
+    }
+  }
+
+  li + li {
+    margin-top: -1px;
+  }
+}

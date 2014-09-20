@@ -1,6 +1,6 @@
 React = require 'react'
 PageFooter = require './page-footer'
-NavBar = require 'react-bootstrap/NavBar'
+NavBar = require 'react-bootstrap/Navbar'
 Nav = require 'react-bootstrap/Nav'
 NavItem = require 'react-bootstrap/NavItem'
 NavItemLink = require 'react-crossroads-bootstrap/lib/NavItemLink'
@@ -22,7 +22,7 @@ ApplicationNavBar = React.createClass
         brand={brand}
         staticTop>
         <Nav>
-          <NavItemLink to='documentation'>Documentation</NavItemLink>
+          <NavItemLink to='docs'>Documentation</NavItemLink>
           <NavItem href='https://github.com/react-crossroads/react-crossroads'>Github</NavItem>
           <NavItem href='https://www.npmjs.org/package/react-crossroads'>Npm</NavItem>
         </Nav>

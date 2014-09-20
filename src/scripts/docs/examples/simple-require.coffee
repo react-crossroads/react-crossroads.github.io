@@ -1,0 +1,1 @@
+ReactCrossroads = require 'react-crossroads'

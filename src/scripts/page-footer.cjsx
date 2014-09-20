@@ -9,7 +9,7 @@ PageFooter = React.createClass
         <div className="rc-social">
           <ul className="rc-social-buttons">
             <li>
-              <iframe className="github-btn" src={'http://ghbtns.com/github-btn.html?user=react-crossroads&repo=react-crossroads&type=watch&count=true'} width={90} height={20} title="Star on GitHub" />
+              <iframe className="github-btn" src={'http://ghbtns.com/github-btn.html?user=react-crossroads&repo=react-crossroads&type=watch&count=true'} width={92} height={20} title="Star on GitHub" />
             </li>
             <li>
               <iframe className="github-btn" src={'http://ghbtns.com/github-btn.html?user=react-crossroads&repo=react-crossroads&type=fork&count=true'} width={92} height={20} title="Fork on GitHub" />

@@ -1,11 +1,14 @@
-{Router, Routes, Route, DefaultRoute} = require 'react-crossroads'
+{Router, Routes, Route, DefaultRoute, Redirect} = require 'react-crossroads'
+
+DocRoutes = require './docs/routes'
 
 ApplicationRoutes = ->
   <Router>
     <Routes path='/' handler={require './application-navbar'}>
       <DefaultRoute name='home' handler={require './home'} />
-      <Route name='documentation' handler={require './documentation'} />
+      <DocRoutes />
     </Routes>
+    <Redirect fromPath='/documentation' to='docs' />
   </Router>
 
 module.exports = ApplicationRoutes

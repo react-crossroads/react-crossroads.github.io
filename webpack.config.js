@@ -1,5 +1,6 @@
 var webpack = require('webpack');
 var path = require('path');
+var root = path.join(__dirname, 'src', 'scripts');
 
 module.exports = {
   entry: "./app.coffee",
@@ -10,6 +11,7 @@ module.exports = {
   },
   module: {
     loaders: [
+      { test: /examples\/index.coffee$/, include: root,  loader: "transform?brfs" },
       { test: /\.coffee$/, loader: "coffee" },
       { test: /\.cjsx$/, loader: "coffee!cjsx" },
       { test: /\.less$/, loader: "style!css!less" },

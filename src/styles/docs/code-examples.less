@@ -1,0 +1,36 @@
+@import "../../../node_modules/highlight.js/styles/github.css";
+
+.rc-code-example {
+  margin: 10px 0;
+
+  .highlight {
+    background-color: @rc-code-background-color;
+    margin: 0;
+
+    code {
+      padding: 0;
+    }
+  }
+
+  &.has-toggle {
+
+    .highlight {
+      border-bottom-right-radius: 0;
+    }
+
+    .example-toggle {
+      float: right;
+      margin-top: -1px;
+
+      .btn-group > .btn {
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        padding: 0 10px;
+      }
+
+      .btn-default {
+        background-color: @rc-code-background-color;
+      }
+    }
+  }
+}
