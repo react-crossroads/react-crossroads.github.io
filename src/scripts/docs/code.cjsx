@@ -1,4 +1,4 @@
-React = require 'react'
+React = require 'react/addons'
 hljs = require './highlight'
 examples = require './examples'
 ButtonToolbar = require 'react-bootstrap/ButtonToolbar'
