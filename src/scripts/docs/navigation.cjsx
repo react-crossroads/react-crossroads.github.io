@@ -9,6 +9,7 @@ DocNavigation = React.createClass
       <div className='rc-doc-navigation'>
         <Nav stacked>
           <NavItem to='installation'>Installation</NavItem>
+          <NavItem to='getting-started'>Getting Started</NavItem>
         </Nav>
       </div>
     )
